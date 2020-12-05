@@ -40,7 +40,17 @@ public class Recursion{
 
   public static String stringClean(String str) {
 
-    return "yza";
+    if (str.length() <= 1) {
+
+      return str;
+
+    } else if (str.substring(0, 1).equals(str.substring(1, 2))) {
+
+      return stringClean(str.substring(1));
+
+    }
+
+    return str.substring(0, 1) + stringClean(str.substring(1));
 
   }
 
