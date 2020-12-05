@@ -73,4 +73,12 @@ public class RecursionTest{
         assertEquals("a*abcde*ef*f", Recursion.pairStar("aabcdeeff"));
     }
     
+    @Test
+    public void Test9(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("yza", Recursion.stringClean("yyzzza"));
+    }
+
 }
