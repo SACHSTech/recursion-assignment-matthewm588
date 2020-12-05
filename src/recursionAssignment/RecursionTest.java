@@ -14,10 +14,31 @@ public class RecursionTest{
         // make assertion statement(s)
         // assertEquals(EXPECTEDVALUE, TESTVALUE);
         // assertTrue(TESTBOOLEAN);
-        assertEquals(1, Recursion.countHi("xyhixy"));
+        assertEquals(1, Recursion.countHi("xxhixx"));
     }
     
-    // add more tests
-    
+    @Test
+    public void Test2(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(2, Recursion.countHi("xhixhix"));
+    }
+
+    @Test
+    public void Test3(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(1, Recursion.countHi("hi"));
+    }
+
+    @Test
+    public void Test4(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals(4, Recursion.countHi("tm1hiam3hiamehi2menhi"));
+    }
     
 }
