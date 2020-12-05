@@ -40,5 +40,13 @@ public class RecursionTest{
         // assertTrue(TESTBOOLEAN);
         assertEquals(4, Recursion.countHi("tm1hiam3hiamehi2menhi"));
     }
+
+    @Test
+    public void Test5(){
+        // make assertion statement(s)
+        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        // assertTrue(TESTBOOLEAN);
+        assertEquals("hel*lo", Recursion.pairStar("hello"));
+    }
     
 }
