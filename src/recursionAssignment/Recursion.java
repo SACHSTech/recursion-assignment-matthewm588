@@ -1,11 +1,24 @@
 package recursionAssignment;
 
+/**
+* A program Recursion.java that contains methods to solve
+* certain problems using recursion.
+* @author Matthew Morelli
+*/
 public class Recursion{
 
   public static void main(String[] args) {
 
   }
 
+  /**
+  * Given a string, return the number of "hi"s in the
+  * string
+  *
+  * @param str  The string to be analyzed
+  * @return The number of "hi"static
+  * @author Matthew Morelli
+  */
   public static int countHi(String str) {
 
     if (str.length() < 2) {
@@ -22,9 +35,17 @@ public class Recursion{
 
   }
 
+  /**
+  * Given a string, return the same string but with a "*"
+  * in between consecutive same characters
+  *
+  * @param str  The string to be analyzed
+  * @return  The string but with the "*"s
+  * @author Matthew Morelli
+  */
   public static String pairStar(String str) {
 
-    if (str.length() == 1 || str.equals("")) {
+    if (str.length() < 2) {
 
       return str;
 
@@ -38,9 +59,18 @@ public class Recursion{
 
   }
 
+  /**
+  * Given a string, return the same string but with
+  * consecutive equal characters as only one character
+  *
+  * @param str  The string to be analyzed
+  * @return  The string but with the consecutive equal
+  * characters as only one character
+  * @author Matthew Morelli
+  */
   public static String stringClean(String str) {
 
-    if (str.length() <= 1) {
+    if (str.length() < 2) {
 
       return str;
 
